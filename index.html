@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é o meu primeiro site, um quiz com 5 perguntas.">
+    <meta name="keywords" content="quiz, quiz de 5 perguntas, quiz simples, desenvolvedor web quiz">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz para programadores</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    </head>
+    
+<body>
+    <div class="quiz">
+<header>
+
+        <h1>Quiz Simples</h1>
+
+</header>
+
+<main>
+
+        <form>
+     <div class="question">
+        <h3>1. Qual das seguintes linguagens de programação é utilizada para adicionar interatividade e comportamento dinâmico a pagina web no lado do cliente?</h3>
+
+        <input type="radio" value="HTML" id="q1a" name="pergunta1">
+        <label for="q1a">HTML</label><br>
+        <input type="radio" value="CSS" id="q1b" name="pergunta1">
+        <label for="q1b">CSS</label><br>
+        <input type="radio" value="JavaScript" id="q1c" name="pergunta1">
+        <label for="q1c">JavaScript</label><br>
+        <input type="radio" value="Python" id="q1d" name="pergunta1">
+        <label for="q1d">Python</label><br>
+        </div>
+
+     <div class="question">
+        <h3>2. Qual das seguintes seletores CSS tem a maior especificidade?</h3>
+
+        <input type="radio" value="div" id="q2a" name="pergunta2">
+        <label for="q2a">div</label><br>
+        <input type="radio" value=".classe" id="q2b" name="pergunta2">
+        <label for="q2b">.classe</label><br>
+        <input type="radio" value="#id" id="q2c" name="pergunta2">
+        <label for="q2c">#id</label><br>
+        <input type="radio" value="p span" id="q2d" name="pergunta2">
+        <label for="q2d">p span</label><br>
+     </div>
+
+     <div class="question">
+        <h3>3. Qual metodo HTTP é comumente usado para enviar dados de um formulário HTML para o servidor de forma segura e geralmente para criar novos recursos?</h3>
+
+        <input type="radio" value="GET" id="q3a" name="pergunta3">
+        <label for="q3a">GET</label><br>
+        <input type="radio" value="PUT" id="q3b" name="pergunta3">
+        <label for="q3b">PUT</label><br>
+        <input type="radio" value="DELETE" id="q3c" name="pergunta3">
+        <label for="q3c">DELETE</label><br>
+        <input type="radio" value="POST" id="q3d" name="pergunta3">
+        <label for="q3d">POST</label><br>
+     </div>
+
+     <div class="question">
+     <h3>4. O que a sigla DOM representa no contexto do desenvolvimento web?</h3>
+
+        <input type="radio" value="Document Object Model" id="q4a" name="pergunta4">
+        <label for="q4a">Document Object Model</label><br>
+        <input type="radio" value="Data Object Management" id="q4b" name="pergunta4">
+        <label for="q4b">Data Object Management</label><br>
+        <input type="radio" value="Dynamic Output Mechanism" id="q4c" name="pergunta4">
+        <label for="q4c">Dynamic Output Mechanism</label><br>
+        <input type="radio" value="Distributed Operating Module" id="q4d" name="pergunta4">
+        <label for="q4d">Distributed Operating Module</label><br>
+     </div>
+
+     <div class="question">
+        <h3>5. Qual propriedade CSS é utilizada para controlar o layout de elementos filhos em uma única dimensão (linha ou coluna)</h3>
+
+        <input type="radio" value="display: grid;" id="q5a" name="pergunta5">
+        <label for="q5a">display: grid;</label><br>
+        <input type="radio" value="display: block;" id="q5b" name="pergunta5">
+        <label for="q5b">display: block;</label><br>
+        <input type="radio" value="display: flex;" id="q5c" name="pergunta5">
+        <label for="q5c">display: flex;</label><br>
+        <input type="radio" value="display: inline;" id="q5d" name="pergunta5">
+        <label for="q5d">display: inline;</label><br>
+     </div>
+
+     </form>
+
+     <div>
+        <button class="submit-btn">Enviar</button>
+     </div>
+    </div>
+
+    <div id="resultado" class="resutado-final"></div>
+
+
+</main>
+
+<script src="script.js"></script>
+
+<footer>
+    <p>&copy; 2025 - quiz para programadores</p>
+</footer>
+
+</body>
+</html>
